@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Playfair+Display:ital,wght@0,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap"
+    rel="stylesheet">
+  <title>Payment form</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <title>RESTAURANT WEBSITE</title>
+</head>
+
+<body>
+  <!--nav-->
+  <ul style="margin-bottom: 0px;">
+    <li style="float:right"><a href="#contact">Contact</a></li>
+    <li style="float:right"><a href="#about">About</a></li>
+    <li style="float:right"><a href="accomodation">Accomodation</a></li>
+    <li style="float:right"><a href="#bookingrequest">Booking Request</a></li>
+    <li class="dropdown" style="float: right;">
+      <a href="#menu" class="dropbtn">Menu</a>
+      <div class="dropdown-content">
+        <a href="#starter">Starter</a>
+        <a href="#maincourse">Main-course</a>
+        <a href="#desserts">Desserts</a>
+    <li style="float:right"><a class="active" href="#home">Home</a></li>
+    </div>
+
+    </li>
+  </ul>
+
+  <div style="height:650px ; background-image:url('RESTAURANTS.jpg');">
+
+
+    <div class="display-middle center" style="text-align: center; padding: 200px;">
+      <span class="white">DINNER IN THE SKY</span><br>
+
+      <input type="button" class="btn" style="font-size: 30px; transf" value="WELCOME">
+    </div>
+  </div>
+  </div>
+  <!--dates-->
+
+  <form>
+
+    <h3 class="pos_left"> CHECK-IN DATE: <input type="date" id="myDate" value="2021-06-09"><button class="ch"
+        onclick="myFunction()">Check Availability</button></h3>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myDate").value;
+        document.getElementById("demo").innerHTML = x;
+      }
+    </script>
+
+
+  </form>
+  <!--menu-->
+  <div class="men" style="font-size: 20px; background-color: cadetblue; text-align: justify;  padding: 0px; margin: 10px;">
+    <div class="m">
+      <h1 style="-webkit-text-decoration-line: underline;text-decoration-line: underline;">
+        <div id="menu"><b>MENU</b>
+      </h1>
+    </div>
+    <h1 id="starter" style="background-color: #529089;">STARTERS</h1>
+    <div>
+
+      <h1><b>Today's Soup</b> <span>Seasonal</span>
+        <div class="dis"><span>$5.50</span></div>
+      </h1>
+      <p>Ask the waiter</p>
+
+
+      <h1><b>Bruschetta</b>
+        <div style=" text-align-last: right; float: right;"> <span>$8.50</span></div>
+      </h1>
+      <p>Bread with pesto, tomatoes, onion, garlic</p>
+
+
+      <h1><b>Garlic bread</b>
+        <div style=" text-align-last: right; float: right;"><span>$9.50</span></div>
+      </h1>
+      <p>Grilled ciabatta, garlic butter, onions</p>
+    </div>
+    <hr>
+    <h1 id="maincourse" style="background-color: #529089">MAIN-COURSE</h1>
+    <div>
+
+      <h1><b>Lasagna</b> <span>Popular</span>
+        <div style=" text-align-last: right; float: right;"> <span>$13.50</span></div>
+      </h1>
+      <p>Special sauce, mozzarella, parmesan, ground beef</p>
+
+
+      <h1><b>Ravioli</b>
+        <div style=" text-align-last: right; float: right;"><span>$14.50</span></div>
+      </h1>
+      <p>Ravioli filled with cheese</p>
+
+
+      <h1><b>Spaghetti Classica</b>
+        <div style="text-align-last: right; float: right;"><span>$11.00</span></div>
+      </h1>
+
+      <p>Fresh tomatoes, onions, ground beef</p>
+    </div>
+    <hr>
+    <h1 id="desserts" style="background-color: #529089">Dessets</h1>
+    <div>
+
+      <h1><b>Brownie</b>
+        <div style="text-align-last: right; float: right;"> <span>$5.50</span></div>
+      </h1>
+
+
+
+      <h1><b>Baked Alaska</b>
+        <div style="text-align-last: right; float: right;"> <span>$8.50</span></div>
+      </h1>
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <!--about-->
+  <div id="about" style="padding: 0px; margin: 10px;">
+
+    <h1 style="-webkit-text-decoration-line: underline;
+    text-decoration-line: underline; "><b>ABOUT US</b></h1>
+
+    <p>Sea Palace Hotel is located in the heart of Mumbai City having easy accessibility to the commercial, shopping and
+      tourist areas. We are 5 minutes away from Chhatrapati Shivaji Terminus (V.T. Station), and 40 minutes drive from
+      the Domestic/ International Airport. A heritage enchanting the view of Mumbai's beautiful harbour, we are renowned
+      for luxury and comfort maintaining the standards of service and professionalism which caters to the requirements
+      of a high profile business traveler as well as a leisure tourist.</p>
+
+    <strong style="font-size: 25px;"> Palace Hotel provides facilities like:</strong>
+    <ul class="li" style="font-family: 'Playfair Display', serif;"></ul>
+    <li>Wi Fi Internet</li><br>
+    <li> 24 hours Room Service</li><br>
+    <li>Business Centre</li><br>
+    <li>Doctor on Call</li><br>
+    <li>Same day Laundry & Dry Cleaning services</li><br>
+    <li>Foreign Exchange</li><br>
+    <li>Safe Deposit Lockers</li><br>
+    <li>Car Park / Rental</li><br>
+    <li>Major credit cards accepted</li><br>
+    <li>Shoe Shine Facility / Slippers</li><br>
+
+    </ul>
+
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row"">
+      <div class="column" style="font-family: 'Cormorant Garamond', serif;">
+        <div class="content">
+          <img src="rooftop.jpg" alt="Mountains" style="width:100%; height: 200px;">
+          <h3><b>ROOFTOP</b></h3>
+          <div >
+            <p>This rooftop restaurant in Mumbai serves the most mouth-watering food along the mesmerizing view of the
+              Arabian sea . The ideal time to visit this restaurant is obviously in the evening when the lights set a
+              romantic mood, perfect for a date.</p></div>
+          </div>
+        </div>
+        <div class="column" style="font-family: 'Cormorant Garamond', serif;">
+          <div class="content">
+            <img src="cheiff.jpg" alt="Lights" style="width:100%; height: 200px">
+            <h3><b>EVENTS</b></h3>
+            <p>he Boat House was our choice to celebrate a December Birthday. There was snow on the ground with the
+              sparkle of the City in the background.<br><br><br></p>
+          </div>
+        </div>
+        <div class="column " style="font-family: 'Cormorant Garamond', serif;">
+          <div class="content">
+            <img src="ambience.jpg" alt="Nature" style="width:100% ; height: 200px;">
+            <h3><b>AMBIENCE</b></h3>
+            <p>The Hotel Ambience welcomes all the guests with astroning comfort and perfect service. just between the
+              ideal location of ahmedabad The Hotel Ambience provides comfort and healthy stay.All the ambience aare antic.<br><br>
+            </p>
+          </div>
+        </div>
+        <div class="column" style="font-family: 'Cormorant Garamond', serif;">
+          <div class="content">
+            <img src="res.jpg" alt="Mountains" style="width:100% ; height: 200px;">
+            <h3><b>CHEFS</b></h3>
+            <p>The Chef? Mr.Italiano. Each chef selected will be looked at regarding what their exact signature dish
+              is.Most have gone on the record about putting one dish above others when they want people to think
+              about them. <br><br></p>
+          </div>
+        </div>
+</div>
+<div id="ani"><button style="background: linear-gradient(45deg, #8f775afa, transparent);margin: 0px;padding: 0px;border: 0;"><a href="http://www.seapalacehotel.net/images/seapalace-brochure.pdf" target="blank">Click here to Download brochure</a></button></div>
+      <hr>
+
+      <h1><b>Opening Hours</b></h1>
+
+      <div>
+        <div>
+          <p>Mon &amp; Tue CLOSED</p>
+          <p>Wednesday 10.00 - 24.00</p>
+          <p>Thursday 10:00 - 24:00</p>
+        </div>
+        <div>
+          <p>Friday 10:00 - 12:00</p>
+          <p>Saturday 10:00 - 23:00</p>
+          <p>Sunday Closed</p>
+
+          
+        </div>
+      </div>
+
+
+      <!--contact-->
+
+      <div id="contact" style="background-color: cadetblue;">
+        <h1 style="-webkit-text-decoration-line: underline;
+     text-decoration-line: underline;"><b>CONTACT US</b></h1>
+        <p><i class="glyphicon glyphicon-list-alt"><b>Address:</i></b><br>
+          <span class="ab"><b>DINNER IN THE SKY</b></span><br>
+          26, P.J. RamchandaniMarg,<br>
+          Apollo Bunder, Colaba,<br>
+          Mumbai - 400 039.<br>
+          Maharashtra. India.<br><br>
+
+          <span class="bd"><i class="glyphicon glyphicon-phone-alt"></i>+91-22-6112 8000 / 2284 1828 /
+            2285 4404 / 2285 4410</span><br>
+
+          <span class="c"><i class="glyphicon glyphicon-envelope"></i>reservation@seapalacehotel.net</span>
+
+        </p>
+      </div>
+</div>
+
+</body>
+
+</html>
